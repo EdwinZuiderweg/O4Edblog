@@ -14,6 +14,7 @@
            $divartikel = "divartikel" . $rijnr ;
            $divtitel = "divtitel" . $rijnr ;
            $divcontent = "divcontent" . $rijnr;
+
            echo "<div id = \"" . $divartikel . "\" class = \"clsartikel\">";
              //<div id = "divtitel1" class = "clstitel">
              echo "<div id = \"" . $divtitel . "\" class = \"clstitel\">";
@@ -23,6 +24,7 @@
              echo "<div id = \"" . $divcontent . "\" class = \"clscontent\">";
              echo $row["Artikelinhoud"];
              echo "</div>";
+             include 'reactieform.php'; //maakt een invoerformulier om reacties te kunnen plaatsen
            echo "</div>";
            $rijnr++;
          }

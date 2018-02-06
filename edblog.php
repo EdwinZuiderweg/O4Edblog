@@ -20,6 +20,22 @@
         artikeldiv.innerHTML = xhttp.responseText;
     }
   }
+
+  //******************************************************************************************
+  function Plaatscomment(artnr) {
+    var txtcomment = "artcomment" + artnr;
+    var Inhoud = document.getElementById(txtcomment);
+    if (Inhoud.value != "") {
+      var xhttp = new XMLHttpRequest();
+      var myURL = "plaatsreactie.php?reactie=";
+      myURL += Inhoud.value + "&artnr=" + artnr;
+
+      xhttp.open("POST", myURL, false);
+      xhttp.send();
+      alert(xhttp.responseText);
+      Inhoud.value = "";
+    }
+  }
 </script>
 </head>
 <body>

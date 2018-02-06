@@ -13,3 +13,7 @@ Trello: https://trello.com/b/kZJYvpwU/gorillablog
 6-2 14.00:
 
 - 4.1: "Tekst expander" toegevoegd zodat sommige afkortingen (os, cg en gr) automatisch wordt omgezet naar volledige woord. (helaas niet zelf geprogrammeerd maar gegoogled van internet)
+
+6-2 17.00:
+- 4.2: Je kunt reacties invoeren bij een artikel. Nieuwe tabel "Reacties" aangemaakt en Blog.php en Haalalleartikelen.php aangepast, plaatsreactie.php en reactieform.php aangemaakt.
+

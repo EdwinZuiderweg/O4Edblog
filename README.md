@@ -8,6 +8,8 @@ http://www.javastraat.goedgehost.nl/Codegorillaprogs/GorillaBlog/edblog.php
 
 http://www.javastraat.goedgehost.nl/Codegorillaprogs/GorillaBlog/artikelinvoer.php
 
+Trello: https://trello.com/b/kZJYvpwU/gorillablog
+
 6-2 14.00:
 
 - 4.1: "Tekst expander" toegevoegd zodat sommige afkortingen (os, cg en gr) automatisch wordt omgezet naar volledige woord. (helaas niet zelf geprogrammeerd maar gegoogled van internet)

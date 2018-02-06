@@ -1,0 +1,63 @@
+body {
+  font-family   : Arial, Helvetica, sans-serif;
+  background: #eeffcc;
+}
+
+#divheader {
+  background: url(blogheader.jpg);
+  color     : #ff6666;
+  border-radius: 20px;
+  width   : 70%;
+  padding : 2%;
+  margin  : 0% auto;//5px auto;
+  font-family : arial, sans-serif;
+  font-weight : bold;
+  font-size: 60px;
+  border-width  : 8px;
+  border-style : solid;
+  border-color : #000000;
+}
+
+#divcontainer {
+  margin-top: 1%;
+  width: 76%;
+  margin-left: 12%;
+  clear: both;
+}
+
+#divmenu {
+  background: #33cc33;
+  color     : #000000;
+  border-radius: 20px;
+  width     : 18%;
+  //margin  : 5%;
+  float   : left;
+  padding : 2%;
+  border-width  : 8px;
+  border-style : solid;
+}
+
+#divartikelen {
+  background: #33cc33;
+  color     : #000000;
+  border-radius: 20px;
+  width   : 68%;
+  margin-left: 1%;
+  float   : left;
+  padding : 25px;
+  border-width  : 8px;
+  border-style : solid;
+}
+
+.clsartikel {
+  margin-top: 2%;
+  background: #33ff33;
+  padding: 1%;
+  border-radius: 20px;
+  border-width  : 1px;
+  border-style : solid;
+}
+
+.clscategorie {
+
+}

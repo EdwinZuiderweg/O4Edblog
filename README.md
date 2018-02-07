@@ -18,5 +18,5 @@ Trello: https://trello.com/b/kZJYvpwU/gorillablog
 - 4.2: Je kunt reacties invoeren bij een artikel. Nieuwe tabel "Reacties" aangemaakt en Blog.php en Haalalleartikelen.php aangepast, plaatsreactie.php en reactieform.php aangemaakt.
 
 7-2 11.30:
-- 4.2: reacties bij artikel worden nu ook weergegeven. Dus in principe is deze odracht af.
+- 4.2: reacties bij artikel worden nu ook weergegeven. Dus in principe is deze opdracht af.
 

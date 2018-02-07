@@ -59,20 +59,19 @@ var shortcuts = {
 window.onload = function() {
     var ta = document.getElementById("artContent");
     var timer = 0;
-    var re = new RegExp("\\b(" + Object.keys(shortcuts).join("|") + ")\\b", "g");    
-    
+    var re = new RegExp("\\b(" + Object.keys(shortcuts).join("|") + ")\\b", "g");
+
     update = function() {
       ta.value = ta.value.replace(re, function($0, $1) {
          return shortcuts[$1.toLowerCase()];
       });
     }
-    
+
     ta.onkeydown = function() {
       clearTimeout(timer);
       timer = setTimeout(update, 200);
-    }    
+    }
 }
-
 
 
 //******************************************************************************************
@@ -80,10 +79,14 @@ function PlaatsArtikel() {
   var Artnaam = document.getElementById("artikelNaam");
   var Inhoud = document.getElementById("artContent");
   var Catid = document.getElementById("categorie");
+  var MagReageren =  document.getElementById("reactiestoestaan");
+  //MagReageren.checked;
   if ((Artnaam.value != "") && (Inhoud.value != "") && (Catid.value != "")) {
     var xhttp = new XMLHttpRequest();
     var myURL = "blogapi.php?name=";
-    myURL += Artnaam.value + "&artikel=" + Inhoud.value + "&catid=" + Catid.value;
+
+    myURL += Artnaam.value + "&artikel=" + Inhoud.value + "&catid=" + Catid.value + "&allowreacties=" + MagReageren.checked;
+    alert(myURL);
     xhttp.open("POST", myURL, false);
     xhttp.send();
     alert(xhttp.responseText);
@@ -109,7 +112,6 @@ function MaakCategorie() {
       var node = document.createElement('option');
       node.value = "\"" + newcatnr + "\"";
       node.innerHTML = Catnaam.value;
-     //alert(node.value);
       selcat.appendChild(node);
     }
   }
@@ -137,6 +139,9 @@ function MaakCategorie() {
           <td>
             <button onClick="JavaScript: MaakCategorie();">OK</button><br>
           </td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" id= "reactiestoestaan" value="1">Reacties toegestaan</td>
         </tr>
         </table>
         <table>

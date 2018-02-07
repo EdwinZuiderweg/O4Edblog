@@ -5,7 +5,7 @@
      }
      else {
        //echo ("hij doet het!");
-       $sql = "SELECT Artnr, Artikelnaam, Artikelinhoud, Datum  FROM Artikelen ORDER BY Datum DESC";
+       $sql = "SELECT Artnr, Artikelnaam, Artikelinhoud, allowreacties ,Datum  FROM Artikelen ORDER BY Datum DESC";
        $result = $conn->query($sql);
 
        if ($result->num_rows > 0) {
@@ -24,8 +24,11 @@
              echo "<div id = \"" . $divcontent . "\" class = \"clscontent\">";
              echo $row["Artikelinhoud"];
              echo "</div>";
-             include 'haalartreacties.php'; //haal de reacties bij een artikel
-             include 'reactieform.php'; //maakt een invoerformulier om reacties te kunnen plaatsen
+             $magreageren = $row["allowreacties"];
+             if ($magreageren == true) {
+               include 'haalartreacties.php'; //haal de reacties bij een artikel
+               include 'reactieform.php'; //maakt een invoerformulier om reacties te kunnen plaatsen
+             }
            echo "</div>";
            $rijnr++;
          }

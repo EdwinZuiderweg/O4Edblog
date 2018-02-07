@@ -6,7 +6,6 @@ if  ($verb == "GET") {
     $catid = $_GET['catid'];
     $servername = "localhost";
     include 'connectdb.php';
-
     if ($conn->connect_error) {
       die("Connection failed: " . $conn->connect_error);
     }

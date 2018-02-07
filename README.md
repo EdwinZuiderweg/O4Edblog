@@ -8,7 +8,7 @@ http://www.javastraat.goedgehost.nl/Codegorillaprogs/GorillaBlog/edblog.php
 
 http://www.javastraat.goedgehost.nl/Codegorillaprogs/GorillaBlog/artikelinvoer.php
 
-Trello: https://trello.com/b/kZJYvpwU/gorillablog
+Trello: https://trello.com/b/oo57mmgY/opdracht-4-blog
 
 6-2 14.00:
 

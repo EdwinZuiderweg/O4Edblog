@@ -20,3 +20,5 @@ Trello: https://trello.com/b/kZJYvpwU/gorillablog
 7-2 11.30:
 - 4.2: reacties bij artikel worden nu ook weergegeven. Dus in principe is deze opdracht af.
 
+7-2 21.30:
+- 4.5: Reageren op een artikel kan aan- of uitgezet worden. 

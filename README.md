@@ -22,3 +22,6 @@ Trello: https://trello.com/b/oo57mmgY/opdracht-4-blog
 
 7-2 21.30:
 - 4.5: Reageren op een artikel kan aan- of uitgezet worden. 
+
+8-2 0.45:
+- 4.4: Reacties verwijderen nu ook mogelijk. En ook artiklen. Zie beheerartikelen.php

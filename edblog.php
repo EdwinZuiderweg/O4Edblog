@@ -23,13 +23,13 @@
 
   //******************************************************************************************
   function Plaatscomment(artnr) {
-    var txtcomment = "artcomment" + artnr;
+    var txtcomment = "artcommentform" + artnr;
     var Inhoud = document.getElementById(txtcomment);
+    alert("so far so good!");
     if (Inhoud.value != "") {
       var xhttp = new XMLHttpRequest();
       var myURL = "plaatsreactie.php?reactie=";
       myURL += Inhoud.value + "&artnr=" + artnr;
-
       xhttp.open("POST", myURL, false);
       xhttp.send();
       alert(xhttp.responseText);

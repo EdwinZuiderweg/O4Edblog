@@ -24,6 +24,7 @@
              echo "<div id = \"" . $divcontent . "\" class = \"clscontent\">";
              echo $row["Artikelinhoud"];
              echo "</div>";
+             include 'haalartreacties.php'; //haal de reacties bij een artikel
              include 'reactieform.php'; //maakt een invoerformulier om reacties te kunnen plaatsen
            echo "</div>";
            $rijnr++;

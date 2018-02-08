@@ -25,3 +25,6 @@ Trello: https://trello.com/b/oo57mmgY/opdracht-4-blog
 
 8-2 0.45:
 - 4.4: Reacties verwijderen nu ook mogelijk. En ook artiklen. Zie beheerartikelen.php
+
+8-2 13.00:
+- 4.5: Reacties toestaan kan nu ook later worden uitgezet of aangezet.

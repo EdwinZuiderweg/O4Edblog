@@ -121,13 +121,11 @@ function MaakCategorie() {
 
 <body>
   <div id = "divheader" class = "clsheader">
-    <center>Mijn schaakblog</center>
+    <center>GorillaBlog</center>
   </div>
   <div id = "divinhoud" class = "clsinhoud">
     <div id = "divbloginvoer" class = "clsbloginvoer">
-
-        Schrijf artikel:
-        <center><fieldset><br>
+        <center><br>
         <table>
         <tr>
           <td>
@@ -137,9 +135,16 @@ function MaakCategorie() {
             <input type = "text" id = "txtNewCategorie" name = "Newcategorie">
           </td>
           <td>
-            <button onClick="JavaScript: MaakCategorie();">OK</button><br>
+            <button onClick="JavaScript: MaakCategorie();">OK</button>
+          </td>
+          <td>
+            <button onclick="window.location.href='Beheerartikelen.php'"> Beheer Artikelen</button>
           </td>
         </tr>
+        </table>
+        <fieldset>
+          <h1>Schrijf artikel:</h1>
+        <table>
         <tr>
           <td><input type="checkbox" id= "reactiestoestaan" value="1">Reacties toegestaan</td>
         </tr>

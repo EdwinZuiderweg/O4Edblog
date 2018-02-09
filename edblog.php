@@ -10,9 +10,10 @@
 <meta name = keywords content = "gorillablog">
 <link rel="stylesheet" href="blogstyle.css">
 <script>
-
+  var ActCatnr = "allecats";
   function Selectartcat(catnr) { //haal de artikelen per geselecteerde categorie
     if (catnr!= "") {
+        ActCatnr = catnr;
         var xhttp = new XMLHttpRequest();
         var myURL = "haalcatartikelen.php?catid=" + catnr;
         xhttp.open("GET", myURL, false);
@@ -35,7 +36,8 @@
       xhttp.send();
       alert(xhttp.responseText);
       Inhoud.value = "";
-    }
+    }    
+    Selectartcat(ActCatnr);
   }
 </script>
 </head>
@@ -50,7 +52,6 @@
       <?php
         include 'haalcatsblog.php';
       ?>
-
       <input type="radio" name="categorie" value="allecats" onClick = "Selectartcat(this.value)">Alles
 
       <!--</select>-->

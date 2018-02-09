@@ -10,6 +10,7 @@
 <meta name = keywords content = "gorillablog">
 <link rel="stylesheet" href="blogstyle.css">
 <script>
+
   function Selectartcat(catnr) { //haal de artikelen per geselecteerde categorie
     if (catnr!= "") {
         var xhttp = new XMLHttpRequest();
@@ -25,7 +26,7 @@
   function Plaatscomment(artnr) {
     var txtcomment = "artcommentform" + artnr;
     var Inhoud = document.getElementById(txtcomment);
-    alert("so far so good!");
+
     if (Inhoud.value != "") {
       var xhttp = new XMLHttpRequest();
       var myURL = "plaatsreactie.php?reactie=";

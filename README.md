@@ -36,3 +36,6 @@ http://www.javastraat.goedgehost.nl/Codegorillaprogs/GorillaBlog/Beheerartikelen
 
 Maar deze is ook te bereiken via de "auteurs"-ingang. "Delete" en "INSERT"-methode van AJAX-request bleken op de server van provider niet te werken. Uitzoeken hoe dat kan. Verouderde PHP-versie? Het werkt nu wel met "GET"-methode (beter "POST" bedacht ik later).  
 
+9-2 17.00: 
+- 4.2: Auto pagina verversen bij plaatsen reactie.
+

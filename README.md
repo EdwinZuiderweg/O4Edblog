@@ -28,3 +28,11 @@ Trello: https://trello.com/b/0LFQ9WSV/opdracht-4
 
 8-2 13.00:
 - 4.5: Reacties toestaan kan nu ook later worden uitgezet of aangezet.
+
+9-2 9.30:
+- Live-versie nu ook up-to-date. Nieuwe ingang voor admins is: 
+
+http://www.javastraat.goedgehost.nl/Codegorillaprogs/GorillaBlog/Beheerartikelen.php
+
+Maar deze is ook te bereiken via de "auteurs"-ingang. "Delete" en "INSERT"-methode van AJAX-request bleken op de server van provider niet te werken. Uitzoeken hoe dat kan. Verouderde PHP-versie? Het werkt nu wel met "GET"-methode (beter "POST" bedacht ik later).  
+
